@@ -1,0 +1,104 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #fff;
+  background-image: url('/img/fondo_blanco.png');
+  background-size: cover;
+  background-repeat: repeat;
+}
+
+header {
+  margin-top: 10vh;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+}
+header .div_left {
+  margin-left: 3vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+header .div_left h1 {
+  font-size: 1.6em;
+  text-align: center;
+}
+.div_left a {
+  width: 100%;
+}
+.div_left button {
+  width: 100%;
+  padding: 4px 0px;
+  font-size: 14px;
+  text-align: center;
+  text-decoration: none;
+  background-color: #4CAF50;
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+}
+header .div_right img {
+  width: 100%;
+  max-width: max-content;
+  max-height: max-content;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+}
+
+h1 {
+  color: #333;
+}
+h4 {
+  margin-top: 15vh;
+}
+
+p {
+  color: #666;
+}
+.point {
+  color: #4CAF50;
+  line-height: 1.6;
+  text-align: center;
+  border: 2px solid #4CAF50;
+
+}
+.cta-button {
+  display: inline-block;
+  padding: 15px 30px;
+  font-size: 18px;
+  text-align: center;
+  text-decoration: none;
+  background-color: #4CAF50;
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 4vh;
+}
+
+.cta-button:hover {
+  background-color: #45a049;
+}
+
+.little_letter {
+  font-size: small;
+}
+
+@media screen and (min-width: 500px) {
+  body {
+    
+  }
+  header {
+    grid-template-columns: 1fr 1fr
+  }
+  header .div_right img {
+    max-width: 308px;
+  }
+  /* .div_left a {
+    max-width: 230px;
+  } */
+}
