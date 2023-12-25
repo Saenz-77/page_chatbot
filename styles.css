@@ -28,7 +28,7 @@ header .div_left h1 {
 }
 .div_left button {
   width: 100%;
-  padding: 4px 0px;
+  padding: 8px 0px;
   font-size: 14px;
   text-align: center;
   text-decoration: none;
@@ -89,16 +89,18 @@ p {
 }
 
 @media screen and (min-width: 500px) {
-  body {
-    
-  }
+  /* body {
+    añadir versión de escritorio  
+  } */
   header {
     grid-template-columns: 1fr 1fr
   }
   header .div_right img {
     max-width: 308px;
   }
-  /* .div_left a {
-    max-width: 230px;
-  } */
+  .div_left a {
+    position: relative;
+    width: 50%;
+    left: 25%;
+  }
 }
